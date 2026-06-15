@@ -60,7 +60,10 @@ h1,h2,h3,h4,.hero-title,.service-num{font-family:'Oswald',sans-serif;font-weight
 .btn-ghost:hover{background:#fff;color:var(--dark);border-color:#fff;transform:translateY(-3px)}
 .btn-dark{background:var(--dark);color:#fff;box-shadow:0 8px 22px rgba(43,48,54,.28)}
 .btn-dark:hover{background:var(--dark-2);transform:translateY(-3px);box-shadow:0 14px 30px rgba(43,48,54,.36)}
-.btn-whatsapp{background:#25d366;color:#fff;width:100%;margin-top:6px;box-shadow:0 8px 22px rgba(37,211,102,.3)}
+.btn-whatsapp{background:#25d366;color:#fff;width:100%;margin-top:10px;
+  text-transform:none;letter-spacing:.2px;font-size:1rem;
+  box-shadow:0 8px 22px rgba(37,211,102,.3)}
+.btn-whatsapp svg{flex-shrink:0}
 .btn-whatsapp:hover{background:#1db954;transform:translateY(-3px);box-shadow:0 14px 30px rgba(37,211,102,.4)}
 .btn:active{transform:translateY(-1px)}
 .btn-block{width:100%}
