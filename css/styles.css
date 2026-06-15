@@ -285,6 +285,9 @@ h1,h2,h3,h4,.hero-title,.service-num{font-family:'Oswald',sans-serif;font-weight
 .contact-card:hover{transform:translateY(-4px);border-color:rgba(238,123,34,.4)}
 .contact-card:hover::before{transform:scaleY(1)}
 .contact-card h3{color:#fff;font-size:1.32rem;margin-bottom:16px;text-transform:uppercase}
+.contact-card h3:has(+ .contact-role){margin-bottom:4px}
+.contact-role{color:var(--orange);text-transform:uppercase;letter-spacing:1.5px;
+  font-size:.74rem;font-weight:600;margin-bottom:16px}
 .contact-line{display:flex;align-items:center;gap:12px;color:#d7d7d7;padding:9px 0;font-size:.98rem;transition:color .2s}
 .contact-line:hover{color:var(--orange)}
 .contact-line .ico{width:34px;height:34px;padding:7px;flex-shrink:0;fill:var(--orange);
