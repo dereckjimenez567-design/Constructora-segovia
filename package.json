@@ -1,0 +1,13 @@
+{
+  "name": "constructora-segovia-web",
+  "version": "1.0.0",
+  "description": "Sitio web de Constructora Segovia - Construccion, Remodelaciones y Mantenimiento",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
